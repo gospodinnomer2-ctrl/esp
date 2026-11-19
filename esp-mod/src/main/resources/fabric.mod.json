@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "espmod",
+  "version": "${version}",
+  "name": "ESP",
+  "description": "Highlights players, mobs and items through walls. Press 0 for settings.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.esp.EspMod"]
+  },
+  "mixins": ["esp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
